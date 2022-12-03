@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./font/themify-icons.css">
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <title>GDSC</title>
+</head>
+<body>
+    <div id="main">
+        <div class="content-section" id="header">
+            <!-- BEGIN MANAGE -->
+            
+            <div id="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div id="manage"><img src="./resources/logo.png" alt=""></div>
+
+            <!-- END MANAGE -->
+
+            <!-- BEGIN nav -->
+            
+            <!-- <input class="navbar-collapse" type="checkbox" checked> -->
+            <ul id="nav">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+
+            </ul>
+            
+            <script>
+                $(document).ready(function() {
+                    $('#toggle').click(function() {
+                        $('#nav').slideToggle();
+                    });
+                })
+            </script>
+            <!-- END nav -->
+
+            <!-- BEGIN GET STARTED -->
+
+            <div class="getStarted" id="firstgetStarted"> <p>Get started</p></div>
+
+            <!-- END GET STARTED -->
+
+        </div>
+        
+        <!-- BEGIN SLIDER -->
+        <div id="slider">
+            <div id="content">
+                <!-- 1st slide -->
+                <div class="content-section" id="graph">
+                    <div class="col col-two">
+                        <h1 class="section-head">Bring everyone <br> together to build a better product.</h1>
+                        <p class="section-subhead subLeft">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+                        <div class="getStarted" id="secgetStarted"><p>Get started</p></div>    
+                    </div>
+                    <div class="col col-two" id="img1slide">
+                        <img src="./resources/Na_Dec_16.jpg" alt="">
+                   </div>
+                </div>
+                <!-- 2st slide -->
+                <div class="content-section" id="graph">
+                    <div class="col col-two">
+                        <h2 class="section-head">What's different about Manage?</h2>
+                        <p class="section-subhead subLeft">Manage provides all the functionality that your team needs, without the complextity. Our software is tailor-made for modern digital product teams.</p>
+                    </div>
+                    <div class="col col-two" id="order-list">
+                        <div id="list">
+                            <div class="col-sub" id="sub-button">
+                                <div id ="number">01</div>
+                            </div>
+                            <div class="col-main" id="sub-content">
+                                <h5>Track company-wide progress</h5>
+                                <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again</p>
+                            </div>
+                        </div>
+                        <div id="list">
+                            <div class="col-sub" id="sub-button">
+                                <div id ="number">02</div>
+                            </div>
+                            <div class="col-main" id="sub-content">
+                                <h5>Advanced built-in reports</h5>
+                                <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+                            </div>
+                        </div>
+                        <div id="list">
+                            <div class="col-sub" id="sub-button">
+                                <div id ="number">03</div>
+                            </div>
+                            <div class="col-main" id="sub-content">
+                                <h5>Everything you need in one place</h5>
+                                <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                <!-- 3rd slide -->
+                <div class="content-section">
+                    <h1>What they've said?</h2>
+                    <div id="scroll">
+                        <div class="row">
+                            <div class="testimonial">
+                                <p><img src="./resources/avatar-ali.png" alt=""></p>
+                                <div id="comment">
+                                    <h5>Ali Bravo</h5>
+                                    <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <p><img src="./resources/avatar-anisha.png" alt=""></p>
+                                <div id="comment">
+                                    <h5>Anisha Li</h5>
+                                    <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <p><img src="./resources/avatar-shanai.png" alt=""></p>
+                                <div id="comment">
+                                    <h5>Shanai</h5>
+                                    <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <p><img src="./resources/avatar-richard.png" alt=""></p>
+                                <div id="comment">
+                                    <h5>Richard Watts</h5>
+                                    <p>"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="getStarted" id="thirdgetStarted"><p>Get started</p></div>
+                </div>
+            </div>
+
+            <!-- 4th slide-->
+            <div id="fourthslide">
+                <div class="content-section" >
+                    <div class="col col-two"><h2>Simplify how your team <br> works today.</h2></div>
+                    <div class="col col-two getStarted"><p id="fourthgetStarted">Get started</p></div>
+                </div>
+            </div>
+            
+                <!-- 5th slide-->
+            <div id="fifthslide" class="desktop-slides">
+                <div class="content-section" >
+                    <div class="col col-4-25">
+                        <div id="manage-last">
+                            <img src="./resources/logo trắng.png" alt="">
+                        </div>
+                        <div>
+                            <p class="social-list">
+                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a href="#"><i class="ti-instagram"></i></a>
+                                <a href="#"><i class="ti-twitter-alt"></i></a>
+                                <a href="#"><i class="ti-pinterest"></i></a>
+                                <a href="#"><i class="ti-linkedin"></i></a>
+                                <a href="#"><i class="ti-google"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-4-20" id="footer">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-4-20" id="footer">
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-4-35">
+                        <form name="inbox" action onsubmit="return validateForm()" method="post" required>
+                            <div class="row">
+                                <div class="col col-form">
+                                    <input name="finbox" class="form-control" type="email" placeholder ="Update in your inbox">
+                                </div>
+                                <div class="col col-submit">
+                                    <input class="form-submit-btn" type="submit" value="Go">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script>
+        function validateForm() {
+            var x = document.forms["inbox"]["finbox"].value;
+            if (x == "" || x == null) {
+                alert("Inbox must be filled out");
+                return false;
+            }
+        }
+
+    </script>
+</body>
+</html>
